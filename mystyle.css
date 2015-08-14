@@ -1,0 +1,204 @@
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: #002B36;
+    z-index: -1000;
+}
+@font-face {
+    font-family: Montserrat;
+    src:url("fonts/Montserrat-Light.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src:url("fonts/Montserrat-ultraLight.otf");
+    font-style: italic;
+}
+.fonted {
+    font-family: Montserrat;
+    font-style: normal;
+    position:relative;
+    z-index: 100;
+}
+#header {
+    position: relative;
+    overflow: hidden;
+    background-color: #512DA8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 520px;               
+}
+#nightsky {
+    position:absolute;
+    min-height: 520px;
+    min-width: 1024px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+}
+#nightsky img {
+    position:absolute; 
+    bottom: 0;
+    left: 0;  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.middle {
+    margin: 0 auto;
+    padding: 10px 50px;
+    width: 1024px;
+    height: 100%;
+    z-index: 100;
+}
+#logo {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    background-color: white;
+    float:left;
+}
+#logo img {
+    margin-top: 5px;
+    margin-left: 5px;
+    width:90px;
+    height:90px;
+    border-radius: 45px;
+    overflow:hidden;
+}
+.titleFont{
+    float:left;
+    color: white;
+    font-size: 300%;
+    margin-top: 40px;
+}
+#contents {
+    width: auto;
+    margin-left: 100px;
+    float:right;
+    font-size: 125%;
+    font-style: normal;
+    color:white;
+}
+#contents ul {
+    list-style: none;
+}
+#contents li {
+    float:right;
+    vertical-align: middle;
+    margin: 23px 12px;
+}
+#contents a {
+    color:inherit;
+    text-decoration: inherit;
+}
+.chapTitleBar {
+
+    /* THIS IS BAR */
+    background-color: #A4BFEB;
+    height:100px;
+    width:100%;
+    z-index: 1;
+
+    /* THIS IS UNDERLINEBAR */
+    border-top: #A4BFEB 10px solid;
+    border-bottom: #5E5768 10px solid;
+}
+#textBlock {
+
+    /* THIS IS MAJORITY */
+    background-color: #6474AD;
+
+    height:550px;
+    width:100%;
+}
+.chapTitle{
+    position: relative;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 220%;
+}
+#introduction {
+    position: relative;
+    top: -200px;
+    left: 220px;
+    color:white;
+    font-size: 200%;
+    font-style: italic;
+    width: 350px;
+}
+.returnHome {
+    position: fixed;
+    bottom:0;
+    left:80%;
+    width:30px;
+    height:25px;
+    border-top: #67800A 2px solid;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #859900;
+    background-image: url("photos/back.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.returnHome:hover {
+    transform: translateY(-5px) ;
+}
+.educationSection {
+    margin-top: 20px;
+    height: 16vw;
+    overflow: hidden;
+}
+.educationLogo { 
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    z-index: 100;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 120px;
+    border: #F9A03F 10px solid;
+    background-color: white;
+    overflow: hidden;
+    float:left;
+}
+.educationLogo img {
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    width: 15vw;
+}
+.educationDesc {
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    margin:10px;
+    margin-left: 30px;
+    float:left;
+    overflow: hidden;
+}
+#connect {
+    position: relative;
+    top: 20px;
+    float:left;
+    position: center;
+}
+#connect div {
+    float:left;
+    position: center;
+    margin: 0 auto;
+}
+#connect img {
+    margin: 10px;
+}
